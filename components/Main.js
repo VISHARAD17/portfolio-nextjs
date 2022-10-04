@@ -8,7 +8,7 @@ import {SiCodeforces, SiLeetcode} from 'react-icons/si'
 const Main = () => {
     return ( 
         <div className=" bg-gray-900 font-mono">
-            <div class="grid lg:grid-cols-2 h-screen place-items-center max-w-[1240px] m-auto md:grid-cols-1 sm:grid-cols-1">
+            <div className="grid lg:grid-cols-2 h-screen place-items-center max-w-[1240px] m-auto md:grid-cols-1 sm:grid-cols-1">
                 <div className="text-white bg-gray-900 p-4 mt-[110px] max-w-[600px] text-widest">
                     <h1 className="text-4xl p-4 hover:scale-110 duration-300">Hi, I am 
                         <span className="m-4 font-extrabold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">Visharad</span>

@@ -56,7 +56,7 @@ const Navbar = () => {
           :'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src="/../public/assets/logo.png" width='87' height = '35' atl = '/'></Image>
+              <Image src="/../public/assets/logo.png" width='87' height = '35' alt = 'navbar-logo' />
               <div onClick={handleNav} className='bg-white rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40 '>
-              <p className='uppercase tracking-widest text-[#5651e5] font-bold'> let's connect</p>
+              <p className='uppercase tracking-widest text-[#5651e5] font-bold'> let&apos; connect</p>
               <div className='flex item-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full bg-[#5651e5] shadow-lg shadow-gray-900 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <FaLinkedinIn/>
