@@ -36,7 +36,7 @@ $PROJECT_ROOT
 # Non-react modules
 ├── styles
 │   # Static files for images and 3d model file
-└── public
-|   |── skills 
-|   |── assets
+|── public
+   |── skills 
+   |── assets
 ```
