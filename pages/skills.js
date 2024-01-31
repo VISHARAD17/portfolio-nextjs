@@ -8,7 +8,7 @@ import cppImg from '../public/skills/c++.png'
 import pythonImg from '../public/skills/python.png'
 import reactImg from '../public/skills/react.png'
 import expressImg from '../public/skills/express.png'
-import mongoDBImg from '../public/skills/python.png'
+import mongoDBImg from '../public/skills/mongodb.png'
 
 const Skills = () => {
   return (
