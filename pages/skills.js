@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { FaHtml5 } from 'react-icons/fa'
 import html5Img from '../public/skills/html.png'
 
+// Images used in the page
+import cppImg from '../public/skills/c++.png'
+
 const Skills = () => {
   return (
     <div  className='bg-gray-900 w-full lg:h-screen font-mono'>
@@ -15,7 +18,7 @@ const Skills = () => {
                 
                 {/* #################################################################### */}
                 <div className='flex justify-center items-center p-6 shadow-lg shadow-black bg-gray-800 rounded-xl hover:scale-110 ease-in duration-300'>   
-                    <Image src = '/../public/skills/c++.png' alt = 'cpp-img' width='64px' height='64px' />
+                    <Image src = {cppImg} alt = 'cpp-img' width='64px' height='64px' />
                     <div className='ml-4 text-2xl font-bold text-white'><h3>C++</h3></div>
                 </div>
 
