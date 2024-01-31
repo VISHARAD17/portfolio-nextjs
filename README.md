@@ -28,12 +28,13 @@ $PROJECT_ROOT
 |   |── research.js
 |   |── resume.js
 |   |── skils.js
+|
 │   # React component files
 ├── components
 |   |── Main.js
 |   |── Navbar.js
-│   
-# Non-react modules
+│
+|   # Non-react modules
 ├── styles
 │   # Static files for images and 3d model file
 |── public
