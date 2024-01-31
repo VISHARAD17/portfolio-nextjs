@@ -5,6 +5,10 @@ import html5Img from '../public/skills/html.png'
 
 // Images used in the page
 import cppImg from '../public/skills/c++.png'
+import pythonImg from '../public/skills/python.png'
+import reactImg from '../public/skills/react.png'
+import expressImg from '../public/skills/express.png'
+import mongoDBImg from '../public/skills/python.png'
 
 const Skills = () => {
   return (
@@ -24,25 +28,25 @@ const Skills = () => {
 
                 {/* #################################################################### */}
                 <div className='flex justify-center items-center p-6 shadow-lg shadow-black bg-gray-800 rounded-xl hover:scale-110 ease-in duration-300'>   
-                    <Image src = '/../public/skills/python.png' alt = 'python-img' width='64px' height='64px' />
+                    <Image src = {pythonImg}  alt = 'python-img' width='64px' height='64px' />
                     <div className='ml-4 text-2xl font-bold text-white'><h3>Python</h3></div>
                 </div>
 
                 {/* #################################################################### */}
                 <div className='flex justify-center items-center p-6 shadow-lg shadow-black bg-gray-800 rounded-xl hover:scale-110 ease-in duration-300'>   
-                    <Image src = '/../public/skills/react.png' alt = 'react-img' width='64px' height='64px' />
+                    <Image src = {reactImg} alt = 'react-img' width='64px' height='64px' />
                     <div className='ml-4 text-2xl font-bold text-white'><h3>ReactJS</h3></div>
                 </div>
 
                 {/* #################################################################### */}
                 <div className='flex justify-center items-center p-6 shadow-lg shadow-black bg-gray-800 rounded-xl hover:scale-110 ease-in duration-300'>   
-                    <Image src = '/../public/skills/express.png' alt = '/express-img' width='64px' height='64px' />
+                    <Image src = {expressImg} alt = 'express-img' width='64px' height='64px' />
                     <div className='ml-4 text-2xl font-bold text-white'><h3>ExpressJS</h3></div>
                 </div>
 
                 {/* #################################################################### */}
                 <div className='flex justify-center items-center p-6 shadow-lg shadow-black bg-gray-800 rounded-xl hover:scale-110 ease-in duration-300'>   
-                    <Image src = '/../public/skills/mongodb.png' alt = 'mongodb-img' width='64px' height='64px' />
+                    <Image src = {mongoDBImg} alt = 'mongodb-img' width='64px' height='64px' />
                     <div className='ml-4 text-2xl font-bold text-white'><h3>MongoDB</h3></div>
                 </div>
 
